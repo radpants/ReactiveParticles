@@ -1,0 +1,13 @@
+= Reactive Particles
+
+An experiment in using the sudden motion sensor inside a MacBook to interact with an application. Uses Processing with the SMS library: http://www.shiffman.net/p5/sms/. When the user tilts the computer to one side or another, the particles react intelligently. Pressing a key changes their properties & allows them to ‘eat’ the terrain.
+
+== Keys
+
+* Up/Down: Increase/Decrease particle repulsion distance
+* Right/Left: Increase/Decrease particle repulsion force
+* r: Roughen terrain
+* s: Smooth terrain
+* j: Make particles jump
+* t: Print sms info to console
+* Enter/Return: Re-generate terrain
